@@ -3,7 +3,7 @@ pipeline {
  	stages {
  		stage ('Checkout') {
  			steps {
- 				git branch:'master', url: 'https://github.com/OWASP/Vulnerable-WebApplication.git'
+ 				git branch:'master', url: 'https://github.com/ZhengZhengZhengZheng/ict3103test.git'
  			}
  		}
  
